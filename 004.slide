@@ -1,0 +1,22 @@
+                                 💡 Exemplos 💡 
+
+
+👉 Capturando Platform ID:
+
+/LAP-\w{8}-\w{4}-\w{4}-\w{4}-\w{12}/g;
+
+👉 Capturando métodos com um em ruby e python:
+
+/def \w+\([\w,\s]*\)/g;
+
+👉 Capturando classes em ruby, python, kotlin e java.
+
+/(class|interface)\s+\w+/g
+
+👉 Capturando modules em ruby.
+
+/\b\w*(?:::\w*)*\b/g
+
+👉 Renavam:
+
+/(\d{10})[-]?(\d{1})/gm;
